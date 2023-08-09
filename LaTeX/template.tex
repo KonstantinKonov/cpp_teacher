@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage[T2A]{fontenc}
+
+%------------------------------------------------
+
+\name{Константин Конов} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{+7-950-948-10-91 Telegram @KonstantinKonov} % Main address
+
+\address{kostyakonov@gmail.com} % A secondary address (optional)
+
+\address{https://github.com/KonstantinKonov} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Обо мне}
+	\item Кандидат физ-мат наук со значительным баэкграундом в области вычислительной физики и математики
+	(общий опыт работы 15 лет). В настоящее время - постдок ВШЭ.
+	\item Опыт в разработке ПО 3 года. Основной язык C++, владение C и
+	Python на хорошем уровне. Умение разбираться в теме путем анализа англоязычной научной литературы. Опыт преподавания в школе (IT-лицей КФУ) и университете (КФУ, ВШЭ).
+\end{rSection}
+
+\begin{rSection}{Образование}
+
+	Кандидат физ.-мат. наук \hfill \textit{2016} \\
+	\textbf{Казанский федеральный университет (радиофизика)} \hfill \textit{2009} \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Опыт работы}
+
+	\begin{rSubsection}{МИЭМ ВШЭ (Московский институт электроники и математики им. А.Н. Тихонова Высшей школы экономики)}{2021 - н.в.}{постдок}{Москва, Россия}
+		\item Моделирование физических процессов на языке CUDA C на кластере cHARISMa
+		\item Применение нейросетей (Tensorflow) к задачам компьютерного зрения
+		\item Обзор научной литературы и написание статей в международные рецензируемые журналы
+		\item Работа с аспирантами
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+	\begin{rSubsection}{КФТИ КазНЦ РAН}{2009-2021}{научный сотрудник}{Казань, Россия}
+		\item Моделирование физических процессов на языке Python
+		\item Построение и проведение экспериментов в области электронного парамагнитного резонанса
+		\item Проведение лекций для студенто по теме "Применение электронного парамагнитного резонанса в биологии"
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+	\begin{rSubsection}{IT-лицей при Казанском федеральном университете}{2013-2014}{учитель физики}{Казань, Россия}
+		\item Преподавание физики в 8 и 9 классах
+		\item Подготовка к участию в конференции им. Лобачевского (команда школьников под моим руководством занялa 3 место с темой "Беспроводная передача электроэнергии")
+	\end{rSubsection}
+
+	%------------------------------------------------
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Технические скиллы}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Языки программирования & C, C++, Python \\
+	\end{tabular}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Параллельное программирование и HPC & MPI, CUDA, OpenMP, Numba
+	\end{tabular}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Компиляторы, средства отладки и профилирования & g++, clang, nvcc, gprof, valgrind \\
+	\end{tabular}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Средства сборки и тестирования & make, CMake, GTest/GMock
+	\end{tabular}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Разное & \LaTeX, git, MySQL, PostgreSQL, pqxx, GSL, MatLab/GNU Octave
+	\end{tabular}
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
